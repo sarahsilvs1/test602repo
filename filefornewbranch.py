@@ -1,12 +1,14 @@
 import numpy as np
 
-def addition(a,b):
-   c = a+b
+# make change to original file for new branch
+
+def multiply(a,b):
+   c = a*b
    return c
 
 a = 3*np.pi + 4
 b = 5
 
-result = addition(a,b)
+result = multiply(a,b)
 
 print(result)
